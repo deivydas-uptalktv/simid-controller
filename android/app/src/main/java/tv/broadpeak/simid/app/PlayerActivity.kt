@@ -93,6 +93,11 @@ class PlayerActivity : AppCompatActivity() {
         initSmartLib(inputUrl)
         loadStream(inputUrl)
 
+        val upTalkTvApiKey = ""
+        val upTalkTvChatId = "test-1"
+        val upTalkTVController = UpTalkTVController(applicationContext, upTalkTvApiKey, upTalkTvChatId)
+        playerContainer?.addView(upTalkTVController.createWebView())
+
         val creativeUrl = b.getString("creativeUrl")
         if (creativeUrl == null) {
             findViewById<View>(R.id.buttonStartCreative).visibility = View.GONE

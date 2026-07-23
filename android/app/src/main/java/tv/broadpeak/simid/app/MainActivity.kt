@@ -8,9 +8,9 @@ import androidx.tv.material3.ExperimentalTvMaterial3Api
 
 const val DEFAULT_STREAM_URL = "https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd"
 
-const val DEFAULT_CREATIVE_URL = "https://interactiveadvertisingbureau.github.io/SIMID/examples/creatives/banner_nonlinear.html"
+const val DEFAULT_CREATIVE_URL = "https://orange-bush-02d45051e.7.azurestaticapps.net"
 const val DEFAULT_CREATIVE_AD_PARAMS = "{\"bannerText\":\"Click here to draw!\",\"webUrl\":\"https://quickdraw.withgoogle.com/\"}"
-const val DEFAULT_CREATIVE_DURATION = 10
+const val DEFAULT_CREATIVE_DURATION = 0
 
 const val DEFAULT_STREAM_BPKIO_URL = "https://dcv5s0ei7csoc.cloudfront.net/2ab56412b1163ee103b9ed7065a20563/AVOD/Meridian_1920x1080_30fps_SDR/conditioned/stream.mpd?midfreq=40&coll=cooldrink&adid=crea&max_ads=1&nldur=20&vdur=600&vod=true"
 
